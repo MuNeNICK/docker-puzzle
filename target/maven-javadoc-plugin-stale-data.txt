@@ -1,0 +1,53 @@
+@options
+@packages
+@argfile
+--class-path
+'C:/Users/ksf_member/.m2/repository/org/openjfx/javafx-controls/19/javafx-controls-19.jar;C:/Users/ksf_member/.m2/repository/org/openjfx/javafx-graphics/19/javafx-graphics-19.jar;C:/Users/ksf_member/.m2/repository/org/openjfx/javafx-base/19/javafx-base-19.jar;C:/Users/ksf_member/.m2/repository/org/openjfx/javafx-fxml/19/javafx-fxml-19.jar;C:/Users/ksf_member/.m2/repository/nl/talsmasoftware/umldoclet/2.1.0/umldoclet-2.1.0.jar'
+--module-path
+'C:/Users/ksf_member/.m2/repository/org/openjfx/javafx-graphics/19/javafx-graphics-19-win.jar;C:/Users/ksf_member/.m2/repository/org/openjfx/javafx-fxml/19/javafx-fxml-19-win.jar;c:/Users/ksf_member/ishida/git/15puzzle_ishida/puzzle/target/classes;C:/Users/ksf_member/.m2/repository/org/openjfx/javafx-controls/19/javafx-controls-19-win.jar;C:/Users/ksf_member/.m2/repository/org/openjfx/javafx-base/19/javafx-base-19-win.jar'
+--patch-module
+com.example='c:/Users/ksf_member/ishida/git/15puzzle_ishida/puzzle/src/main/java'
+-doclet
+'nl.talsmasoftware.umldoclet.UMLDoclet'
+-docletpath
+'C:/Users/ksf_member/.m2/repository/nl/talsmasoftware/umldoclet/2.1.0/umldoclet-2.1.0.jar'
+-encoding
+'UTF-8'
+-private
+-source
+'11'
+--module-source-path
+'c:/Users/ksf_member/ishida/git/15puzzle_ishida/puzzle/target/site/apidocs/src'
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'c:/Users/ksf_member/ishida/git/15puzzle_ishida/puzzle/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'puzzle 0.0.6 API'
+-use
+-version
+-windowtitle
+'puzzle 0.0.6 API'
+com.example
+'c:/Users/ksf_member/ishida/git/15puzzle_ishida/puzzle/src/main/java/module-info.java'
+c:\Users\ksf_member\ishida\git\15puzzle_ishida\puzzle\target\site\apidocs\allclasses-index.html = 1683012474099
+c:\Users\ksf_member\ishida\git\15puzzle_ishida\puzzle\target\site\apidocs\allpackages-index.html = 1683012474103
+c:\Users\ksf_member\ishida\git\15puzzle_ishida\puzzle\target\site\apidocs\constant-values.html = 1683012473970
+c:\Users\ksf_member\ishida\git\15puzzle_ishida\puzzle\target\site\apidocs\element-list = 1683012473789
+c:\Users\ksf_member\ishida\git\15puzzle_ishida\puzzle\target\site\apidocs\help-doc.html = 1683012474147
+c:\Users\ksf_member\ishida\git\15puzzle_ishida\puzzle\target\site\apidocs\index-all.html = 1683012474139
+c:\Users\ksf_member\ishida\git\15puzzle_ishida\puzzle\target\site\apidocs\index.html = 1683012474142
+c:\Users\ksf_member\ishida\git\15puzzle_ishida\puzzle\target\site\apidocs\jquery-ui.overrides.css = 1683012474169
+c:\Users\ksf_member\ishida\git\15puzzle_ishida\puzzle\target\site\apidocs\member-search-index.js = 1683012474111
+c:\Users\ksf_member\ishida\git\15puzzle_ishida\puzzle\target\site\apidocs\module-search-index.js = 1683012474105
+c:\Users\ksf_member\ishida\git\15puzzle_ishida\puzzle\target\site\apidocs\overview-tree.html = 1683012474076
+c:\Users\ksf_member\ishida\git\15puzzle_ishida\puzzle\target\site\apidocs\package-search-index.js = 1683012474107
+c:\Users\ksf_member\ishida\git\15puzzle_ishida\puzzle\target\site\apidocs\script.js = 1683012474153
+c:\Users\ksf_member\ishida\git\15puzzle_ishida\puzzle\target\site\apidocs\search.js = 1683012474156
+c:\Users\ksf_member\ishida\git\15puzzle_ishida\puzzle\target\site\apidocs\stylesheet.css = 1683012474151
+c:\Users\ksf_member\ishida\git\15puzzle_ishida\puzzle\target\site\apidocs\tag-search-index.js = 1683012474112
+c:\Users\ksf_member\ishida\git\15puzzle_ishida\puzzle\target\site\apidocs\type-search-index.js = 1683012474108

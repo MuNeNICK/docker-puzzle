@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="440" prefWidth="640" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controllers.MainController">
+   <children>
+      <fx:include fx:id="timer" source="TimerView.fxml" />
+      <fx:include fx:id="puzzle" source="PuzzleView.fxml" />
+      <fx:include fx:id="menu" source="MenuView.fxml" />
+      <Button fx:id="startAndStop" alignment="CENTER" layoutX="400.0" layoutY="335.0" mnemonicParsing="false" onAction="#switchPlayAndStop" prefHeight="66.0" prefWidth="200.0" style="-fx-background-radius: 0; -fx-border-width: 2; -fx-border-color: black;" text="開始">
+        <font>
+          <Font size="30.0" />
+        </font>
+      </Button>
+   </children>
+</AnchorPane>

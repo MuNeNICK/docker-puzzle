@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="0" prefWidth="0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controllers.TimerController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="89.0" layoutY="78.0" prefHeight="26.0" prefWidth="70.0" style="-fx-border-color: black;" text="経過時間">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="timerView" alignment="CENTER_RIGHT" layoutX="159.0" layoutY="78.0" prefHeight="26.0" prefWidth="150.0" style="-fx-border-color: black;" text="00:00:00 ">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

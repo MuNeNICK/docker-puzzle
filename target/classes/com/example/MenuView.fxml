@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="0" prefWidth="0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controllers.MenuController">
+   <children>
+      <MenuBar prefHeight="10.0" prefWidth="680.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="メニュー">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#exitPuzzle" text="終了" />
+            </items>
+          </Menu>
+            <Menu fx:id="selectMenu" mnemonicParsing="false" text="選択">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#changePuzzle1" text="パズル1" />
+                  <MenuItem mnemonicParsing="false" onAction="#changePuzzle2" text="パズル2" />
+                  <MenuItem mnemonicParsing="false" onAction="#changePuzzle3" text="パズル3" />
+                  <MenuItem mnemonicParsing="false" onAction="#changePuzzle4" text="パズル4" />
+               </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>
